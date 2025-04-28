@@ -4,11 +4,8 @@ desc: 改自墨鱼手记
 tiles:
   - name: 每日60秒读懂世界
     interval: 600
-    title: Awesome Tile
-    content: This is Super Cool
     icon: theatermasks.circle.fill
     backgroundColor: "#663399"
 script-providers:
-  your-fancy-script:
+  每日60秒读懂世界:
     url: https://raw.githubusercontent.com/ddgksf2013/Scripts/master/60s.js
-    interval: 86400

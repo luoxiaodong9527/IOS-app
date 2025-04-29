@@ -1,0 +1,6 @@
+#!name=18comic
+#!desc=去广告
+#!icon=https://github.com/Toperlock/Quantumult/raw/main/icon/Doraemon/Doraemon-1079.png
+
+[Script]
+http-response https?:\/\/(\w{0,3}(\.){0,1}(18comic)(\.)\w{0,3})(?!.*?(/(cdn-cgi|onclick)))(?!.*?(\.(css|js|jpeg|jpg|png|php|gif|ico|mp3|mp4|svg|tff|PNG|woff|woff2|m3u8))).* script-path=https://cdn.jsdelivr.net/gh/ddgksf2013/Scripts@master/18comic.js, requires-body=true, timeout=60, tag=18comic
